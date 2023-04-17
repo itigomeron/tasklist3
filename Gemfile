@@ -50,6 +50,6 @@ group :production do
 end
 gem "dockerfile-rails", ">= 1.2", :group => :development
 
-group :development do
+group :development, :test do
   gem 'mysql2', '~> 0.5'
 end
